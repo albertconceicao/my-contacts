@@ -22,6 +22,11 @@
 		}
 	},
 	"rules": {
+		"no-unused-vars": ["error", { "argsIgnorePattern": "next"}],
+		"camelcase": "off",
+		"consistent-return": "off",
+		"class-methods-use-this": "off",
+		"import/prefer-default-export":"off",
 		"prettier/prettier": "error",
 		"no-empty": ["error", { "allowEmptyCatch": true }],
 		// "react/jsx-no-bind": "off",
